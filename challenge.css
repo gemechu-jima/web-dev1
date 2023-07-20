@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(184, 208, 213);
+}
+header{
+    text-align: center;
+    font-size: 2rem;
+}
+main{
+    width: 40rem;
+    margin: auto;
+    padding: 1rem 2rem 2rem 1rem;
+    background: rgb(245, 247, 248);
+    border: 0.02rem solid rgb(168, 163, 163);
+    border-radius: 0.5rem;
+    box-shadow: 1rem 2rem 3rem rgba(169, 182, 195, 0.6);
+}
+
+label{
+    display: block;
+    margin: 1rem;
+}
+input ,textarea
+,select{
+    width: 100%;
+    height: auto;
+    font-size: 1rem;
+    box-sizing: border-box;
+    padding: 1rem 0 0.5rem 0;
+    display: block;
+    margin-right: 1rem;
+    border-radius: 0.2rem;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgb(219, 210, 210);
+    
+}
+input:focus,textarea:focus {
+    background: rgb(128, 7, 250);
+    color: rgb(255, 255, 255);
+}
+textarea{
+    resize:none;
+}
+#button{
+    display: flex;
+    align-items: center;
+}
+#button input{
+    width: auto;
+
+}
+#botton-button{
+    text-align: right;
+    
+    
+   
+}
+.filled{
+    background-color: rgb(23, 26, 33);
+    padding: 0.5rem;
+    color: rgb(240, 255, 254);
+    border:1px solid rgb(168, 163, 163);
+    border-radius: 4px;
+    
+}
+.empty{
+    background-color: rgb(255, 255, 255);
+    padding: 0.5rem;
+    color: rgb(0, 0, 0);
+    border:3px solid rgb(168, 163, 163);
+    border-radius: 3px;
+}

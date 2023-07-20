@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webform Challenge</title>
+    <link rel="stylesheet" href="challenge.css">
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+   <main>
+ <form action="/" method="get">
+    <h2>How can we help you?</h2>
+    <label for="id-name">Your Name</label>
+    <input type="text" name="name" id="id-name" required>
+    <label for="id-email">YournE-mail Address</label>
+    <input type="email" name="email" id="id-email" required>
+    <label for="id-phone">Your phone Number</label>
+    <input type="number" name="phone_number" id="id-phone"  required size="7">
+    <label for="id-message">Your Message</label>
+    <textarea name="message" id="id-message" cols="30" rows="4" required></textarea>
+    <label for="id-find">How did you find us?</label>
+    <select name="find" id="id-find" required>
+        <option value="web-search">web search</option>
+        <option value="google">Search on google</option>
+        <option value="Contact">Contact vi Phone</option>
+    </select>
+    <h2>How should we reply?</h2>
+        <div id="button">
+    <input type="radio" name="reply" id="id-call" required>
+    <label for="id-call">Call me</label>
+        </div>
+    <div id="button">
+    <input type="radio" name="reply" id="id-send-email" required>
+    <label for="id-send-email">Send me an email</label>
+    </div>
+    <div id="button">
+        <input type="radio" name="reply" id="id-don't-reply" required>
+        <label for="id-don't-reply">Don't reply</label>
+    </div>
+    <hr>
+    <div id="button">
+        <input type="checkbox" name="accept" id="id-accept" required>
+        <label for="id-accept">Accept me</label>
+    </div>
+    <div id="botton-button">
+        <button name="submit" class="filled">sumbit</button>
+        <button name="reset" class="empty">clear</button>
+    </div>
+ </form>
+   </main>
+</body>
+</html>

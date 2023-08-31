@@ -90,13 +90,12 @@ main{
 }
 .common-property-section{
     width: 100%;
-    height: 87rem;
+    height:70rem;
     margin:0;
     padding: 0;
 }
 #section--1{
     background-color: var(--color-primary);
-    height: 80rem;
     margin-top: -1rem;
     padding-top: 2rem;
 }
@@ -151,7 +150,7 @@ main{
     margin: auto;
     margin-top: 4rem;
     position: relative;
-    top: 15rem;
+    top: 5rem;
     overflow: visible;
 }
 #status-review div{
@@ -186,11 +185,10 @@ main{
 
 #section--2-image-and-other{
     position:relative;
-    top:15rem;
+    top:5rem;
     background-color: var(--color-primary);
     width: 90%;
     margin: auto;
-    height:38rem ;
     padding: 2rem 4rem;
     border-radius: 1rem ;
     margin-bottom: -2rem;
@@ -210,7 +208,7 @@ main{
 }
 .section--3 h1 {
     position: relative;
-    top: 15rem;
+    top: 5rem;
     text-align: center;
     color: rgb(0, 0, 0);
     margin-top: 3rem;
@@ -230,10 +228,9 @@ main{
     .List-of-course{
         background-color: var(--color-primary);
         width: 90%;
-        height: 40rem;
         margin: auto;
         position: relative;
-        top:15rem;
+        top:5rem;
         border-radius: 1rem;
         box-sizing: border-box;
         display: flex;
@@ -299,7 +296,7 @@ main{
             height: 40rem;
             border-radius: 1rem 1rem 0 0;
             position: relative;
-            top: 45rem;
+            top: 15rem;
             bottom: -3rem;
             overflow:visible;
         }
@@ -379,7 +376,6 @@ main{
         .copy-right{
             position: relative;
            top: 5rem;
-           left:5rem;
            font-family: 'Times New Roman', Times, serif;
            color: azure;
         }
